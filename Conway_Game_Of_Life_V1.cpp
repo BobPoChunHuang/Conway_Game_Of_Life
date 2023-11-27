@@ -50,8 +50,7 @@ int main()
     int i, j;
     int neighbour_live_cell;
  
-    // generate matrix canvas with random values (live and
-    // dead cells)
+    // generate matrix canvas with random values of live and dead cells
     for (i = 0; i < row; i++) {
         for (j = 0; j < col; j++) {
             a[i][j] = rand() % 2;
